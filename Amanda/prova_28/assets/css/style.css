@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+header { /* T R B L */
+    padding: 20px 20px 0 20px;
+}
+main {
+    margin: 32px 0;
+}
+main h2{
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 36px;
+}
+main .container{
+    height: 550px;
+    border-radius: 10px;
+    color: #000;
+}
+#seção-1content{
+    margin: 32px 0;
+}
+
+#seção-1 .seção-1content .card-price {
+
+    display: flex;
+    justify-self: auto;
+    right: 20px;
+    bottom: 20px;
+    margin-bottom: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#seção-1 .card-price p {
+    color: rgb(251, 253, 253);
+    background-color: #0889d4;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+#seção-1 .card-price h1 {
+    color: rgb(251, 253, 253);
+    background-color: #0f9d58;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    
+}
+#seção-1 .card-price h3 {
+    color: rgb(251, 253, 253);
+    background-color: #db4437;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+#cards .card-price p {
+    background-color: #0889d4;
+    color: rgb(251, 253, 253);
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+#seção-2 .seção-2content .card-price {
+
+    display: flex;
+    justify-self: auto;
+    right: 20px;
+    bottom: 20px;
+    margin-bottom: 48px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#seção-2 .card-price h4 {
+    color: #903eeb;
+    border: 1.0px solid #903eeb;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+#seção-2 .card-price h5 {
+    color: #f4b400;
+    border: 1.0px solid #f4b400;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
