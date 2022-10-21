@@ -1,5 +1,5 @@
-
-import imgLogo from '../../assets/img/logo_imobiliaria.svg';
+import './style.css'
+import imgLogo from '../../assets/img/place-company.png';
 
 export function Header() {
     return (
