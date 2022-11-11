@@ -11,7 +11,8 @@ export function SectionValues(){
                         <div className="values-content">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque doloremque animi alias excepturi
                                 architecto, iusto vitae, dolor pariatur totam iure ipsum eligendi blanditiis libero perspiciatis
-                                et suscipit assumenda beatae magni?</p>
+                                et suscipit assumenda beatae magni?
+                                </p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quas dolore velit commodi
                                 tempora, eligendi unde a. Possimus unde doloremque earum, porro obcaecati illum tempore totam
                                 molestiae repudiandae magni necessitatibus.</p>
