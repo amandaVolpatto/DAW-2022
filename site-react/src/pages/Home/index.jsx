@@ -1,24 +1,26 @@
-import { SectionValues } from '../../components/SectionValues'
-import { SectionSpecialists } from '../../components/SectionSpecialists';
+import { SectionBanner } from '../../components/SectionBanner';
 import { SectionReasons } from '../../components/SectionReasons';
+import { SectionSpecialists } from '../../components/SectionSpecialists';
+import { SectionValues } from '../../components/SectionValues';
 import { SectionCards } from '../../components/SectionCards';
-import { SectionBanner} from '../../components/SectionBanner';
-import './style.css'
-
-
+import { ImovelContextProvider } from '../../context/ImovelContext';
 
 export function HomePage() {
     return (
         <div id="home-page">
             <div className="container">
+
                 <SectionBanner />
 
                 <SectionCards />
+                <ImovelContextProvider>
+                    <SectionBanner />
+                    <SectionCards />
+                </ImovelContextProvider>
 
                 <SectionReasons />
 
                 <SectionSpecialists />
-                
                 <SectionValues />
             </div>
         </div>
